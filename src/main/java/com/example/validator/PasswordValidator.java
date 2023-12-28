@@ -3,7 +3,7 @@ package com.example.validator;
 import java.util.regex.Pattern;
 
 public class PasswordValidator {
-    public void passwordValidator(String input) {
+    public static void passwordValidator(String input) {
         Pattern patternForRule1 = Pattern.compile("^.{8}$");
         Pattern patternForRule2 = Pattern.compile("^(?=.*[A-Z]).{8}$");
         Pattern patternForRule3 = Pattern.compile("^(?=.*[A-Z])(?=.*\\d).{8}$");
