@@ -19,7 +19,7 @@ public class Main {
         String email = sc.next();
         System.out.println("Email is: " + (EmailValidator.isEmailValid(email) ? "Valid" : "Invalid"));
 
-        System.out.println("Enter Phone Number");
+        System.out.println("Enter 10 digit Phone Number ");
         String phone = sc.next();
         System.out.println("Phone Number is: " + (PhoneValidator.isPhoneValid(phone) ? "Valid" : "Invalid"));
 
